@@ -3,4 +3,4 @@ services:
 install:
   - travis_wait docker pull grgrlmml/jupedsim_grpc_service
 script:
-  - docker run grgrlmml/jupedsim_grpc_service ./run.sh
+  - docker run grgrlmml/jupedsim_grpc_service ./update.sh
